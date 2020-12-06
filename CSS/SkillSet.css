@@ -1,0 +1,62 @@
+div.star1{
+    margin-left: 10px;
+    border: 1px solid black;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: goldenrod;
+    border-radius: 50px;
+}
+
+div.star2{
+    border: 1px solid black;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+}
+
+h4.py, h4.c, h4.cpp, h4.java{
+    display: inline-block;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4.html, h4.css, h4.js, h4.sql{
+    margin-left: 150px;
+    display: inline-block;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4.java{
+    margin-left: 25px;
+}
+
+h4.c{
+    margin-left: 60px;
+}
+
+h4.cpp{
+    margin-left: 25px;
+}
+
+h4.html{
+    margin-left: 10px;
+}
+
+h4.css{
+    margin-left: 27px;
+}
+
+h4.sql{
+    margin-left: 220px;
+}
+
+footer{
+    position: relative;
+    top: -885px;
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+td, th{
+    text-align: center;
+    width: 30%;
+    padding: 15px;
+}
+
+table.styletable{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-collapse: collapse;  
+    font-family: sans-serif;
+    min-width: 400px;
+    margin-left: 26px;
+    font-size: 0.9em;
+    
+}
+
+.styletable tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.styletable tbody tr{
+    border-bottom: 2px solid #009879;
+}
+
+th{
+    font-size: 13pt;
+    background-color: #009879;
+    font-weight: bold;
+}
+
+td{
+    font-size: 9pt;
+}
+
+footer{
+    position: relative;
+    top: -992px;
+    text-align: center;
+}

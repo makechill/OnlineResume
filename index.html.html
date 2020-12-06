@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title> Login Form </title>
+
+    <script src="/JS/FormValidation.js"></script>
+
+    <link rel="stylesheet" href="/CSS/Form.css">
+
+</head>
+<body>
+    
+    <div class="mark" >
+        <h1 class="log" text-align="center"> Login </h1>
+    </div>
+
+    <marquee class="fo" behavior="alternate" direction="left"  scrollamount="4"  loop="50"> To Access the Resume </marquee>
+
+    
+    <div class="content"> 
+        <form onsubmit="return validateForm()" action="Index.html">
+
+            <label for="firstname">Firstname</label>
+            <input type="text" class="in" id="fn" placeholder="Your First Name"  required>
+            <span class="o" id="fname">*</span>
+            <h5 id="fnamee"></h5>
+
+            <label for="lastName">Lastname</label>
+            <input type="text" class="in" id="ln" placeholder="Your Last Name" required>
+            <span class="o" id="lname">*</span>
+            <h5 id="lnamee"></h5>
+
+            <label for="e-mail">E-mail</label>
+            <input type="email" class="in" id="em" placeholder="Your E-mail Id" >
+            <span class="o" id="ema">*</span><br><br>
+
+            <label for="phone">Phone</label>
+            <input type="number" class="in" id="ph" placeholder="Your Mobile Number" > 
+            <span class="o" id="pho">*</span>
+            <h5 id="Phone"></h5>
+
+            <label for="dob">DOB</label>
+            <input type="date" class="in" id="dob" max="2020-10-31" min="1980-08-1" required>
+            <span class="o" id="pho">*</span> <br><br>
+
+            <input type="submit" value="SUBMIT"> <br><br>
+
+        </form>
+    </div>
+
+</body>
+</html>

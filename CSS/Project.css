@@ -1,0 +1,29 @@
+hr.horizontalfooterprodet{
+    position: relative;
+    top: -1085px;
+    border: 2px solid #778899;
+    border-radius: 20px;
+}
+
+footer{
+    position: relative;
+    top: -1025px;
+    text-align: center;
+}
+
+#proj{
+    margin-left: 369px;
+    padding: 10px;
+    text-align: justify;
+    border:2px solid #009479;
+    background-color: white;
+    width: 70%;
+}
+
+hr.zerorow, hr.firstrow, hr.secondrow{
+    border: 1px solid #009479;
+}
+
+p.statepro{
+    font-size: 15pt;
+}
