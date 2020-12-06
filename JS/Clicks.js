@@ -1,7 +1,7 @@
 function myHomePage(){
     var r = confirm("Are you sure to go to Home Page")
     if(r==true){
-    location.replace("Index.html")
+    location.replace("Home.html")
     }
 }
 
