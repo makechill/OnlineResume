@@ -9,7 +9,7 @@ function validateForm(){
     var valnum = /^[6-9]{1}[0-9]{9}$/.test(resnum)
     // var resdob = document.getElementById("dob").value
     
-    if(valfname==false || vallname==false){
+    if(valfname==false){
         document.getElementById("fname").innerHTML = ""
         document.getElementById("fnamee").innerHTML = "Characters must be Greater than 2 and less than 15"
         document.getElementById("fn").style.border = "1px solid red"
